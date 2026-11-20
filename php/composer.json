@@ -1,0 +1,14 @@
+{
+  "name": "sri/comprobantes-descarga-masiva",
+  "description": "Consulta y descarga masiva de comprobantes electrónicos recibidos (SRI) vía cURL",
+  "type": "project",
+  "require": {
+    "php": ">=8.1",
+    "vlucas/phpdotenv": "^5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sri\\": "src/"
+    }
+  }
+}

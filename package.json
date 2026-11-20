@@ -1,0 +1,21 @@
+{
+  "name": "sri-documentos-electronicos",
+  "version": "1.0.0",
+  "description": "Servicio de consulta de comprobantes electrónicos recibidos — SRI Ecuador",
+  "type": "module",
+  "scripts": {
+    "start": "node scraper/cli/login.js",
+    "login": "node scraper/cli/login.js",
+    "recibidos": "node scraper/cli/recibidos.js",
+    "consulta": "node scraper/cli/recibidos.js",
+    "emitidos": "node scraper/cli/emitidos.js",
+    "ir-emitidos": "node scraper/cli/ir-a-emitidos.js",
+    "dev": "node --watch scraper/cli/login.js",
+    "probar-sesion": "php bin/probar-sesion.php"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "playwright": "^1.48.2",
+    "chalk": "^5.3.0"
+  }
+}
